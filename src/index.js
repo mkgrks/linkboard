@@ -9,6 +9,8 @@ import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 import reducers from './store/reducers';
 
+import 'semantic-ui-css/semantic.min.css';
+
 import './index.css';
 
 const history = createHistory();
