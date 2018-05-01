@@ -48,6 +48,14 @@ body {
   text-overflow: ellipsis;
 }
 
+.truncate-multi {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3!important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  white-space: normal !important;
+}
+
 .shadow {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);  

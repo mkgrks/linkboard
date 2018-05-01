@@ -64,6 +64,6 @@
         padding: 10px 0;
     }
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 }
