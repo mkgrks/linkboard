@@ -8,7 +8,7 @@ class Boards extends Component {
     render() {
         return (
             <Grid className='Boards' container>
-                <Board title='Test' description='Test 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what to do'/>
+                <Board title='Testasdasdasdsadsadassda' description='Test 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what toTest 123 I dont know what to do'/>
                 <Board title='Test' description='Test 123 I dont know what to do'/>
                 <Board title='Test' description='Test 123 I dont know what to do'/>
                 <Board title='Test' description='Test 123 I dont know what to do'/>

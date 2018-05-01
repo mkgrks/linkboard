@@ -75,7 +75,7 @@ class NavBar extends Component {
 									{...(!loading ? {labelPosition:'right'} : '')} 
 									onClick={this.handleLoginBtn}>
 										{!loading ? 'Sign in' : ''} 
-										<Icon name='right google' />
+										<Icon name='right google' color='red' />
 								</Button>
 						</GoogleLogin>
 				}

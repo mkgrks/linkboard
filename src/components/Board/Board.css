@@ -1,3 +1,12 @@
 .Board {
 	/* max-width: 250px !important; */
 }
+
+.board-descr {
+	min-height: 57px;
+	max-height: 57px;
+}
+
+.board-extra{
+	border-color:white!important;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Input, Boards, NavBar, Modal } from '../components'
+import { Input, Boards, NavBar, Modal, Footer } from '../components'
 import './App.css';
 
 class App extends Component {
@@ -12,6 +12,7 @@ class App extends Component {
           <Boards />
         </div>
         <Modal />
+        <Footer />
       </div>
     );
   }
