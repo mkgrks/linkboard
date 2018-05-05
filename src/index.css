@@ -10,9 +10,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 200px;  
+  min-height: calc(100vh - 450px);
   width: 100%;
-  height: 100%;
 }
 
 .left {
@@ -25,6 +25,33 @@ body {
 
 .pointer {
   cursor: pointer;  
+}
+
+.fill-container {
+	width: 100% !important;
+}
+
+.no-radius {
+	border-top-left-radius: 0em !important;
+	border-bottom-left-radius: 0em !important;
+	border-top-right-radius: 0em !important;
+	border-bottom-right-radius: 0em !important;
+}
+
+.no-events {
+	pointer-events: none;
+}
+
+.small-inner-padding {
+	padding: 10px 10px 0 10px;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-border {
+	border: 0 !important;
 }
 
 .sizing {
@@ -94,23 +121,33 @@ h1, h2, h3, h4, h5 {
   background: #FF1493;
   color: #fff;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
 @media (max-width: 992px) {
   .sizing {
     width: 75%;
-  }
-
-  .container {
-    margin-top: 200px;
   }
 }
 
 @media (max-width: 768px) {
   .sizing {
     width: 80%;
-  }
-
-  .container {
-    margin-top: 150px;
   }
 }

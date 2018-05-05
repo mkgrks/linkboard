@@ -4,9 +4,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className='Footer'>
+        <footer className='Footer'>
             <strong className='grey-text'>Developed with passion and</strong> <Icon name='coffee' className='coffee' />
-        </div>
+        </footer>
     );
 }
 

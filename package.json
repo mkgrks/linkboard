@@ -2,6 +2,7 @@
   "name": "linkboard",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8001/",
   "dependencies": {
     "ajv": "^6.4.0",
     "history": "^4.7.2",
@@ -12,6 +13,7 @@
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
     "redux-thunk": "^2.2.0",
     "semantic-ui-css": "^2.3.1",
     "semantic-ui-react": "^0.79.1"
